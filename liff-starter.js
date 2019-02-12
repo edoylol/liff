@@ -84,7 +84,7 @@ function getP(){
 
                 type: 'text',
 
-                text: atob('You've successfully sent a message! Hooray!=')
+                text: atob('You've successfully sent a message! Hooray!')
 
             }]).then(function () {
 
@@ -332,7 +332,7 @@ function textFooter(){
 
                     iconUrl: prof.pictureUrl,
 
-                    linkUrl: "line://app/1636361179-N9dnRpYg?type=fotext&text="+encodeURI(teks)}
+                    linkUrl: "line://app/1581589150-le0GNepN?type=fotext&text="+encodeURI(teks)}
 
             }]).then(function () {
 
@@ -368,7 +368,7 @@ function imageFooter(){
 
                     iconUrl: prof.pictureUrl,
 
-                    linkUrl: "line://app/1636361179-N9dnRpYg?type=foimage&img="+getParameterByName('img')}
+                    linkUrl: "line://app/1581589150-le0GNepN?type=foimage&img="+getParameterByName('img')}
 
             }]).then(function () {
 
